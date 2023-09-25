@@ -8,36 +8,36 @@
 
 
 ;; -------------------------------------------------------------------------
-;; ***** PORTFOLIO Layout starts *****
+;; *****  Layout starts *****
 ;; -------------------------------------------------------------------------
 
 -- layout.base-layout:
 
 ;; ----------------------------------------------------------------
-;; ***** PORTFOLIO Header starts *****
+;; *****  Header starts *****
 ;; ----------------------------------------------------------------
 
 -- navbar.header:
 logo: $assets.files.images.logo.svg
-logoURL: /YOUR_REPOSITORY_NAME
+logoURL: /portfolio
 header-item1: Home
 header-item2: About
 header-item3: Blogs
 header-item4: Projects
-header-item1-link: /YOUR_REPOSITORY_NAME
-header-item2-link: /YOUR_REPOSITORY_NAME/about
-header-item3-link: /YOUR_REPOSITORY_NAME/blogs
-header-item4-link: /YOUR_REPOSITORY_NAME/projects
+header-item1-link: /portfolio
+header-item2-link: /portfolio/about
+header-item3-link: /portfolio/blogs
+header-item4-link: /portfolio/projects
 cta-item2: Resume
-cta-item2-link: /YOUR_REPOSITORY_NAME/resume
+cta-item2-link: /portfolio/resume
 
 ;; ----------------------------------------------------------------
-;; ***** PORTFOLIO Header ends *****
+;; *****  Header ends *****
 ;; ----------------------------------------------------------------
 
 
 ;; -----------------------------------------------------
-;; ***** PORTFOLIO Toast starts *****
+;; *****  Toast starts *****
 ;; -----------------------------------------------------
 
 -- toast.stack:
@@ -45,19 +45,19 @@ title: Hello, I'm aspiring fastn developer based in India
 link: https://github.com/YOUR_GITHUB_USERNAME
 
 ;; -----------------------------------------------------
-;; ***** PORTFOLIO Toast ends *****
+;; *****  Toast ends *****
 ;; -----------------------------------------------------
 
 
 ;; ------------------------------------------
-;; ***** PORTFOLIO Hero UI starts *****
+;; *****  Hero UI starts *****
 ;; ------------------------------------------
 
 -- ftd.container:
 padding-bottom.px: 20
 
 ;; ------------------------------------------
-;; ***** PORTFOLIO Hero UI Desktop view starts *****
+;; *****  Hero UI Desktop view starts *****
 ;; ------------------------------------------
 
 -- ftd.desktop:
@@ -69,7 +69,7 @@ spacing.fixed.px: 20
 
 -- lib.hero-ui-base-text-wrapper:
 firstTitle: I'm
-secondTitle: YOUR_NAME,
+secondTitle: Atharva Jahagirdar,
 
 -- lib.hero-ui-base-text-wrapper:
 firstTitle: frontend
@@ -101,22 +101,22 @@ isNewTab: true
 -- end: ftd.row
 
 ;; --------------------------------
-;; ***** PORTFOLIO Socials starts *****
+;; *****  Socials starts *****
 ;; --------------------------------
 
 -- ftd.row:
 spacing.fixed.px: 10
 
 -- social.social-button-wrapper:
-link: https://linkedin.com/in/YOUR_LINKEDIN_USERNAME
+link: https://linkedin.com/in/Atharva Jahagirdar
 image: $assets.files.images.linkedin.png
 
 -- social.social-button-wrapper:
-link: https://twitter.com/YOUR_TWITTER_USERNAME
+link: https://twitter.com/Atharva Jahagirdar
 image: $assets.files.images.twitter.png
 
 -- social.social-button-wrapper:
-link: https://github.com/YOUR_GITHUB_USERNAME
+link: https://github.com/ALTROPRO21
 image: $assets.files.images.github.png
 
 -- social.social-button-wrapper:
@@ -130,7 +130,7 @@ image: $assets.files.images.mail.png
 -- end: ftd.row
 
 ;; --------------------------------
-;; ***** PORTFOLIO Socials ends *****
+;; *****  Socials ends *****
 ;; --------------------------------
 
 -- end: ftd.column
@@ -144,14 +144,14 @@ width.fixed.px: 400
 -- end: ftd.desktop
 
 ;; ------------------------------------------
-;; ***** PORTFOLIO Hero UI Desktop view ends *****
+;; *****  Hero UI Desktop view ends *****
 ;; ------------------------------------------
 
 ;; -----------------------------------------------------
 ;; -----------------------------------------------------
 
 ;; ------------------------------------------
-;; ***** PORTFOLIO Hero UI Mobile view starts *****
+;; *****  Hero UI Mobile view starts *****
 ;; ------------------------------------------
 
 -- ftd.mobile:
@@ -203,7 +203,7 @@ isNewTab: true
 
 
 ;; --------------------------------
-;; ***** PORTFOLIO Socials starts *****
+;; *****  Socials starts *****
 ;; --------------------------------
 
 -- ftd.row:
@@ -232,7 +232,7 @@ image: $assets.files.images.mail.png
 -- end: ftd.row
 
 ;; --------------------------------
-;; ***** PORTFOLIO Socials ends *****
+;; *****  Socials ends *****
 ;; --------------------------------
 
 -- end: ftd.column
@@ -242,17 +242,17 @@ image: $assets.files.images.mail.png
 -- end: ftd.mobile
 
 ;; ------------------------------------------
-;; ***** PORTFOLIO Hero UI Mobile view ends *****
+;; *****  Hero UI Mobile view ends *****
 ;; ------------------------------------------
 
 -- end: ftd.container
 
 ;; ------------------------------------------
-;; ***** PORTFOLIO Hero UI ends *****
+;; *****  Hero UI ends *****
 ;; ------------------------------------------
 
 -- end: layout.base-layout
 
 ;; -------------------------------------------------------------------------
-;; ***** PORTFOLIO Layout ends *****
+;; *****  Layout ends *****
 ;; -------------------------------------------------------------------------
